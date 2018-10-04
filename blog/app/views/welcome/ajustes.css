@@ -1,0 +1,45 @@
+body{
+	font-family: 'Sanchez', serif;
+	background-color: #D9EBFF;
+	margin-top: 80px
+}
+img{
+	max-width: 100%;
+}
+.activo{
+	color: #FFFFFF;
+}
+.colora{
+	color: #FFA100;
+}
+.backnav{
+	background-color: #002040;
+}
+.float{
+	float: none;
+}
+.quitar-espacio{
+	margin-top: 100px;
+}
+.lobster{
+	font-family: 'Lobster', cursive;
+
+}
+.comfortaa{
+	font-family: 'Comfortaa', cursive;
+}
+.grande{
+	font-size: 3em;
+}
+.medio{
+	font-size: 1.2em;
+}
+.m-der{
+	margin-right: 1em;
+}
+
+.delay {
+  -animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}

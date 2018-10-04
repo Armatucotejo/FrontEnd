@@ -1,0 +1,38 @@
+body{
+	font-family: 'Sanchez', serif;
+	background-color: #002040;
+}
+img{
+	max-width: 100%;
+}
+.backnav{
+	background-color: #002040;
+}
+.float{
+	float: none;
+}
+.quitar-espacio{
+	margin-top: 100px;
+}
+.lobster{
+	font-family: 'Lobster', cursive;
+
+}
+.coustard{
+	font-family: 'Coustard', serif;
+}
+.grande{
+	font-size: 3em;
+}
+.medio{
+	font-size: 1.5em;
+}
+.espacio-derecha{
+	margin-right: 0.5em;
+}
+
+.delay {
+  -animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}
