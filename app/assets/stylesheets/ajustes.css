@@ -46,4 +46,8 @@ img{
 .button{
   margin:auto;
   display:block;
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 1.6em;
 }
