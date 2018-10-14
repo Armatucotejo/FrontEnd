@@ -43,3 +43,7 @@ img{
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
 }
+.button{
+  margin:auto;
+  display:block;
+}
