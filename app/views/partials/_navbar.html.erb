@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster|Comfortaa|Sanchez" rel="stylesheet">
   </head>
   <nav class="navbar  navbar-dark navbar-expand-lg fixed-top backnav">
-  <a class="navbar-brand" href="#">
-    <%=image_tag("logo-nav.png", alt: "Example Image", size: "138x44")%>
+  <a class="navbar-brand" >
+    <%=link_to  image_tag("logo-nav.png", alt: "Example Image", size: "138x44") , root_path %>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,8 @@
     <div class="collapse navbar-collapse justify-content-end comfortaa" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-item nav-link m-der medio" href="index.html.erb">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link m-der medio" <%= link_to  "Inicio", root_path %></a>
+
         </li>
         <li class="nav-item">
           <a class="nav-item nav-link m-der medio" href="">Informacion</a>

@@ -6,13 +6,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-  <title>ArmaTuCotejo</title>
+  <title>Registro ArmaTuCotejo</title>
 </head>
 <!-- base barra principal -->
 <%=render partial: 'partials/navbar'%>
-<%=render partial: 'partials/jumbotron'%>
-<%=link_to "Sign up!", "welcome/register" ,method: :post %>
-<%= @users.inspect%>
+<%=render partial: 'partials/register'%>
+
  <%= yield %>
 
 </html>
