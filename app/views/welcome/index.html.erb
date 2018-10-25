@@ -14,7 +14,10 @@
   <body>
     <!-- base barra principal -->
     <%=render partial: 'partials/navbar'%>
-    <%=render partial: 'partials/armatucotejo'%>
+    <%=render partial: 'partials/jumbotron'%>
+    <%=link_to "Sign up!", "welcome/register" ,method: :post %>
+    <%= @users.inspect%>
+      <%= javascript_pack_tag 'hello_react' %>
      <%= yield %>
   </body>
 </html>
