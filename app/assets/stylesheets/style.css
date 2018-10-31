@@ -1,0 +1,49 @@
+.navfont{
+	font-family: 'Comfortaa', cursive;
+}
+.regbutton{
+	font-family: 'Comfortaa';
+	margin-top: 0.8em;
+}
+.firstbc{
+  background-color: #183152;
+}
+.thirdbc{
+	background-color: #C4D7ED;
+}
+.firstc{
+	color: #183152;
+}
+.secondc{
+  color: #C4D7ED;
+}
+.thirdc{
+	color: #ABC8E2;
+}
+.fivec{
+	color: #E1E6FA;
+}
+.nav-item{
+  color: #183152 !important;
+}
+.titlehome{
+	font-family: 'Comfortaa', cursive;
+	font-style: bold;
+	text-align: center;
+	font-size: 5em;
+	padding-top: 0.7em;
+}
+.buttonhome{
+	font-family: 'Comfortaa', cursive;
+	font-size: 3em !important;
+	padding-left: 1.5em !important;
+	padding-right: 1.5em !important;
+	background-color: #E1E6FA;
+	color: #183152;
+}
+.divbutton{
+	padding-top: 2.2em;
+}
+.center{
+	text-align: center !important;
+}
