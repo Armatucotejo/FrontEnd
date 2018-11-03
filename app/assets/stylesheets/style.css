@@ -1,27 +1,59 @@
+body {
+    background-image: url(fondo.png);
+		background-color: #C4D7ED !important;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		overflow-x:hidden;
+}
 .navfont{
 	font-family: 'Comfortaa', cursive;
+	font-size: 1.2em;
 }
+
 .regbutton{
 	font-family: 'Comfortaa';
 	margin-top: 0.8em;
 }
+.olvpass{
+	text-align: right;
+	font-size: 0.7em;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+}
 .firstbc{
-  background-color: #183152;
+  background-color: #E1E6FA !important;
+}
+.secondbc{
+	background-color: #C4D7ED !important;
 }
 .thirdbc{
-	background-color: #C4D7ED;
+	background-color: #ABC8E2 !important;
+}
+.fourbc{
+	background-color: #375D81 !important;
+}
+.fivebc{
+	background-color: #183152 !important;
 }
 .firstc{
-	color: #183152;
+	color: #E1E6FA !important;
 }
 .secondc{
-  color: #C4D7ED;
+  color: #C4D7ED !important;
 }
 .thirdc{
-	color: #ABC8E2;
+	color: #ABC8E2 !important;
+}
+.fourc{
+	color: #375D81 !important;
 }
 .fivec{
-	color: #E1E6FA;
+	color: #183152 !important;
 }
 .nav-item{
   color: #183152 !important;
@@ -31,19 +63,91 @@
 	font-style: bold;
 	text-align: center;
 	font-size: 5em;
-	padding-top: 0.7em;
+	padding-top: 0.5em;
+}
+.subtitlehome{
+	font-family: 'Comfortaa', cursive;
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
 }
 .buttonhome{
 	font-family: 'Comfortaa', cursive;
-	font-size: 3em !important;
-	padding-left: 1.5em !important;
-	padding-right: 1.5em !important;
-	background-color: #E1E6FA;
+	font-size: 2.5em !important;
+	padding-left: 1.2em !important;
+	padding-right: 1.2em !important;
 	color: #183152;
 }
 .divbutton{
-	padding-top: 2.2em;
+	padding-top: 0.5em;
+}
+.divlogin{
+	padding: 0.5em;
+	border-radius: 10px;
+	margin-top: 0.5em;
+}
+.labellogin{
+	margin-left: 0.5em;
 }
 .center{
 	text-align: center !important;
+}
+.comfortaa{
+	font-family: 'Comfortaa', cursive;
+}
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.permanent{
+	font-family: 'Permanent Marker', cursive;
+}
+.separador{
+	padding: 1em;
+}
+
+#logonav{
+	width: 6em;
+	margin-left: 0.5em;
+}
+#comencemos{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-style: bold;
+}
+#titleselector{
+	margin: 0.5em;
+	padding-top: 0.5em;
+	font-style: italic;
+}
+
+.divselector{
+  position: relative;    /* para poder posicionar el texto de forma absoluta */
+  display: inline-block;
+	border: 0.3em solid #183152;
+	border-radius: 10px; /* para que solo ocupe el ancho de la imagen */
+}
+.divcol{
+	border-radius: 10px;
+}
+.card-title{
+	position: absolute;    /* posición absolute con respecto al padre */
+  bottom: 0;             /* posicionada en la esquina inferior derecha */
+  right: 1rem;
+	z-index:2;
+	font-style: bold;
+	font-size: 0.8em;
+	border-radius: 10px;
+}
+
+.flotante{
+	position: absolute;    /* posición absolute con respecto al padre */
+	bottom: 0;
+	z-index:1;
+	top:0;
+	left:0;
+	margin-top: 0.2em;
+	opacity: 0.7;
+}
+.relative{
+	position: relative;
 }

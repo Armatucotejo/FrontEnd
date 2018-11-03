@@ -1,8 +1,14 @@
 {
-  "application.js": "/packs/application-08505a508ec65eb92feb.js",
-  "application.js.map": "/packs/application-08505a508ec65eb92feb.js.map",
+  "_/assets/images/basket.jpg": "/packs/_/assets/images/basket-07d581f20a1f8df0cd2d65565e4b6b93.jpg",
+  "_/assets/images/futbol.jpg": "/packs/_/assets/images/futbol-172a7c7f88f2d902a1d7250d6e1a5387.jpg",
+  "_/assets/images/futsal.jpg": "/packs/_/assets/images/futsal-49df52898d95406a2f845ce850e045ca.jpg",
+  "_/assets/images/logo-nav.png": "/packs/_/assets/images/logo-nav-2bd04fa0c541af66db659467659f42b8.png",
+  "_/assets/images/marco.png": "/packs/_/assets/images/marco-08ce93a8136a587e31f21f494e9cf3a7.png",
+  "_/assets/images/voley.jpg": "/packs/_/assets/images/voley-007a7e03636d5ef3df61d99a0764873a.jpg",
+  "application.js": "/packs/application-139eed1669ea279245ba.js",
+  "application.js.map": "/packs/application-139eed1669ea279245ba.js.map",
   "index.css": "/packs/index-986529d46c2860244faf23ff0bb7c8b7.css",
   "index.css.map": "/packs/index-986529d46c2860244faf23ff0bb7c8b7.css.map",
-  "index.js": "/packs/index-a9737b744819b4146c92.js",
-  "index.js.map": "/packs/index-a9737b744819b4146c92.js.map"
+  "index.js": "/packs/index-4424d25814818c68e58b.js",
+  "index.js.map": "/packs/index-4424d25814818c68e58b.js.map"
 }
