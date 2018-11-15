@@ -10,6 +10,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Comfortaa|Sanchez|Happy+Monkey|McLaren|Lobster|Alfa+Slab+One|Permanent+Marker|Roboto+Slab" rel="stylesheet">
     <%= favicon_link_tag 'icon.ico' %>
+
+    <script>
+      // Initialize and add the map
+       function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -25.344, lng: 131.036};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+    </script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC4lO1PjOC9xzRaOK86FJoht6VBFYcsB8&amp;callback=initMap">
+		</script>
+
+    <script type="text/javascript">
+      $(function() {
+        $('#datetimepicker1').datetimepicker({
+          language: 'pt-BR'
+        });
+      });
+    </script>
+
   </head>
   <body>
     <%= yield %>
