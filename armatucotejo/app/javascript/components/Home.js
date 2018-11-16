@@ -36,7 +36,7 @@ class Home extends React.Component{
       <h6 className="comfortaa firstc olvpass"><a href="#">¿Olvidaste tu contraseña?</a></h6>
       </div>
       <div className="center divbutton">
-        <Link to="/deportes" className="link nav-link"><button className="btn buttonhome btn-lg thirdbc ">Juega</button></Link>
+        <Link to="/eventos" className="link nav-link"><button className="btn buttonhome btn-lg thirdbc ">Juega</button></Link>
         <h6 className="comfortaa firstc regbutton"><Link to="/register" className="link nav-link">¿Ya te registraste?</Link></h6>
       </div>
       </form>
