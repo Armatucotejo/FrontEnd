@@ -1,5 +1,5 @@
 body {
-    background-image: url(fondo.png);
+    /*background-image: url(fondo.png);*/
 		background-color: #C4D7ED !important;
 		background-position: center;
 		background-attachment: fixed;
@@ -25,6 +25,8 @@ body {
 .regbutton{
 	font-family: 'Comfortaa';
 	margin-top: 0.8em;
+  text-align: center;
+  padding: 0 !important;
 }
 .olvpass{
 	text-align: right;
@@ -121,11 +123,14 @@ body {
 .carter{
   font-family: 'Carter One', cursive;
 }
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
 
 
 #logonav{
 	width: 6em;
-	margin-left: 0.5em;
+	margin-left: 6.5em;
 }
 #comencemos{
 	margin-top: 0.5em;
@@ -240,6 +245,12 @@ body {
   border-radius: 5px;
   padding: 0 !important;
 }
+.buttonLogin{
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0.3em;
+  padding: 0 !important;
+}
 .divReg{
   margin: auto;
   padding: 0 !important;
@@ -272,8 +283,40 @@ body {
   font-size: 12px;
   text-align: center;
   margin-top: 0.5em;
+  margin-bottom: 0 !important;
 }
 
 #containerEven{
   margin-top: 1em;
+}
+
+#loginButton{
+  width: 150px;
+  height: 50px;
+}
+
+#logohome{
+  margin: auto;
+  display: block;
+  width: 90%;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+.welcomeText{
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 1em;
+}
+
+#textBienvenido{
+  font-size: 2.5em !important;
+  margin-bottom: 0 !important;
+}
+#textLine{
+  font-size: 0.75em !important;
+}
+#imgLogo{
+  width: 100%;
+display: block;
+margin: auto;
 }

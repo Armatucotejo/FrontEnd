@@ -12,7 +12,7 @@ class Navgbar extends React.Component{
         <Link to="/" className="navbar-brand link nav-link"><img id="logonav" src={logonav} alt="logo"/></Link>
       </div>
       <ul className="navbar-nav">
-        <li className="nav-item"><Link to="/register" className="btn thirdbc link nav-link fivec">Registrarse</Link></li>
+        
       </ul>
     </div>
     </nav>

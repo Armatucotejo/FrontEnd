@@ -7,6 +7,17 @@ import CarrouselHome from './CarrouselHome';
 
 class Home extends React.Component{
 
+  constructor(props) {
+  super(props);
+  this.state = {login: 'block', reg:'none'};
+  this.ChangeDiv = this.ChangeDiv.bind(this);
+}
+
+  ChangeDiv(){
+      this.setState({ login: 'none', reg:'block'});
+  }
+
+
   render(){
 
     const titleHome = (
@@ -19,14 +30,13 @@ class Home extends React.Component{
       {titleHome}
       <div className="container">
         <div className="row">
-          <div className="col">
-          </div>
-          <div className="col-6 justify-content-center">
+          <div className="col-4 justify-content-center">
           </div>
           <div className="col-4 justify-content-center">
-            <Login/>
+          <Login dp={this.state.login} onClick={this.ChangeDiv}/>
+          <Register dp={this.state.reg}/>
           </div>
-          <div className="col">
+          <div className="col-4 justify-content-center">
           </div>
         </div>
       </div>

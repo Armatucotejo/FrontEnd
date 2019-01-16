@@ -6,16 +6,58 @@ import logonav from '../../assets/images/logo-nav.png';
 class Register extends React.Component{
   render(){
 
+    const styles ={
+      display: this.props.dp
+    }
+
     const registro = (
-    <div className="firstbc col-8 divReg ">
+    <div className="firstbc col-8 divReg " style={styles}>
+
+    <div className="container containerReg welcomeText">
+      <div >
+      <h1 id="textBienvenido" className="fivec pacifico">Bienvenido</h1>
+      </div>
+      <div>
+      <h6 id="textLine" className="fivec carter">Arma tu cotejo en pocos pasos</h6>
+      </div>
+    </div>
+
+
 
     <div className="container containerReg">
-      <div>
-        <img id="logopng" src={logonav} alt="logonav"/>
+      <form>
+
+      <div className="form-group formGReg">
+        <div className="col-10 centerdiv inputReg">
+          <input type="name" className="comfortaa form-control formReg" id="inputName" placeholder="Nombres"
+          />
+        </div>
+        <div className="col-10 centerdiv inputReg">
+          <input type="lastname" className="comfortaa form-control formReg" id="inputLastName" placeholder="Apellidos"
+          />
+        </div>
+        <div className="col-10 centerdiv inputReg">
+          <input type="user" className="comfortaa form-control formReg" id="inputUserName" placeholder="Nombre de Usuario"
+          />
+        </div>
+        <div className="col-10 centerdiv inputReg">
+          <input type="correo" className="comfortaa form-control formReg" id="inputCorreo" placeholder="Correo Electronico"
+          />
+        </div>
+        <div className="col-10 centerdiv inputReg">
+          <input type="password" className="comfortaa form-control formReg" id="inputPassword" placeholder="Contraseña"
+          />
+        </div>
+        <div className="col-10 centerdiv inputReg">
+          <button className="btn comfortaa buttonReg fivebc firstc">Registrar</button>
+        </div>
+
+        <div className="col-10 centerdiv inputReg">
+          <p className="comfortaa condicionesReg">Al registrarte, aceptas nuestras Condiciones, la Política de datos y la Política de cookies.</p>
+        </div>
       </div>
-      <div className="col-10 divGoogle">
-      <div className="g-signin2 center" data-onsuccess="onSignIn"></div>
-      </div>
+
+      </form>
     </div>
 
     <div className="container containerReg">
@@ -25,39 +67,12 @@ class Register extends React.Component{
     </div>
 
     <div className="container containerReg">
-      <form>
-
-      <div className="form-group formGReg">
-        <div className="col-10 centerdiv inputReg">
-          <input type="name" className="form-control formReg" id="inputName" placeholder="Nombres"
-          />
-        </div>
-        <div className="col-10 centerdiv inputReg">
-          <input type="lastname" className="form-control formReg" id="inputLastName" placeholder="Apellidos"
-          />
-        </div>
-        <div className="col-10 centerdiv inputReg">
-          <input type="user" className="form-control formReg" id="inputUserName" placeholder="Nombre de Usuario"
-          />
-        </div>
-        <div className="col-10 centerdiv inputReg">
-          <input type="correo" className="form-control formReg" id="inputCorreo" placeholder="Correo Electronico"
-          />
-        </div>
-        <div className="col-10 centerdiv inputReg">
-          <input type="password" className="form-control formReg" id="inputPassword" placeholder="Contraseña"
-          />
-        </div>
-        <div className="col-10 centerdiv inputReg">
-          <button className="btn buttonReg fivebc firstc">Registrar</button>
-        </div>
-
-        <div className="col-10 centerdiv inputReg">
-          <p className="condicionesReg">Al registrarte, aceptas nuestras Condiciones, la Política de datos y la Política de cookies.</p>
-        </div>
+      <div className="col-10 divGoogle">
+      <div className="g-signin2 center" data-onsuccess="onSignIn"></div>
       </div>
-
-      </form>
+      <div className="col-10 divFacebook">
+      <div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+      </div>
     </div>
 
   </div>
