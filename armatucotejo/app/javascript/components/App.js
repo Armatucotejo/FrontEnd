@@ -5,7 +5,8 @@ import About from './About'
 import Register from './Register'
 import Deportes from './Deportes'
 import Eventos from './Eventos'
-
+import CrearEvento from './CrearEvento'
+import UnirseEvento from './UnirseEvento'
 class App extends React.Component{
   render(){
     return(
@@ -16,6 +17,8 @@ class App extends React.Component{
         <Route exact path="/register" component={Register} />
         <Route exact path="/deportes" component={Deportes} />
         <Route exact path="/eventos" component={Eventos} />
+        <Route exact path="/crearevento" component={CrearEvento} />
+        <Route exact path="/unirseevento" component={UnirseEvento} />
       </Switch>
     </div>
     )
