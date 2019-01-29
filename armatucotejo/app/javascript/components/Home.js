@@ -3,7 +3,6 @@ import Navgbar from './Navgbar';
 import { Link } from 'react-router-dom';
 import Login from './Login';
 import Register from './Register';
-import CarrouselHome from './CarrouselHome';
 
 class Home extends React.Component{
 

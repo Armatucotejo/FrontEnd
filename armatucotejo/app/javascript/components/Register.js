@@ -58,22 +58,7 @@ class Register extends React.Component{
       </div>
 
       </form>
-    </div>
-
-    <div className="container containerReg">
-      <div>
-        <h1  className="separadorReg comfortaa">o</h1>
-      </div>
-    </div>
-
-    <div className="container containerReg">
-      <div className="col-10 divGoogle">
-      <div className="g-signin2 center" data-onsuccess="onSignIn"></div>
-      </div>
-      <div className="col-10 divFacebook">
-      <div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
-      </div>
-    </div>
+    </div>  
 
   </div>
     );
