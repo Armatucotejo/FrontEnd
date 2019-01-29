@@ -21,7 +21,7 @@ class Login extends React.Component{
 
 
     const login = (
-  <div className="firstbc col-8 divReg" style={styles}>
+  <div className="secondbc col-8 divReg" style={styles}>
 
     <div className="container containerReg welcomeText">
       <div >

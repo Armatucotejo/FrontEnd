@@ -258,6 +258,7 @@ body {
   margin: auto;
   padding: 0 !important;
   border-radius: 5px;
+	padding-bottom: 0.5em !important;
 }
 
 .containerReg{
