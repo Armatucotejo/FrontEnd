@@ -24,6 +24,20 @@ class Pickers extends React.Component{
               <option value="4">11</option>
               <option value="4">12</option>
             </select>
+
+            <textarea className="descForm form-control" id="exampleFormControlTextarea1" rows="1"  placeholder="Lugar"></textarea>
+            <form name="formulario2">
+              <div className="col-xs-4">
+
+                <input type="date" name="fecha"></input>
+              </div>
+              <div className="col-xs-4">
+
+                <input type="time" name="hora"></input>
+                <h6> </h6>
+              </div>
+
+            </form>
             <textarea className="descForm form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción"></textarea>
           </div>
           <div className="row">

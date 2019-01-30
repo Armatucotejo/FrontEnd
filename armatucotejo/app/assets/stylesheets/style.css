@@ -372,3 +372,11 @@ margin: auto;
 	margin: auto !important;
 	margin-bottom: 0.2em !important;
 }
+
+.arForm{
+	justify-content: center;
+	size: 90%;
+	width: auto !important;
+	margin: auto !important;
+	margin-bottom: 0.2em !important;
+}

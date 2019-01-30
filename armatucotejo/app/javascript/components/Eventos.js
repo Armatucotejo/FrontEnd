@@ -39,9 +39,8 @@ class Eventos extends React.Component{
                 <Pickers/>
               </div>
           </div>
+          
 
-          <div className="col">
-          </div>
         </div>
 
         <div className="row">
