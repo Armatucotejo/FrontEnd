@@ -9,7 +9,6 @@ class Pickers extends React.Component{
     return(
         <div className="container">
           <div className="row">
-<<<<<<< HEAD
             <select className="createForm custom-select" id="inlineFormCustomSelect" placeholder="Deportes">
               <option value="1">Futbol</option>
               <option value="2">Futsal</option>
@@ -27,20 +26,7 @@ class Pickers extends React.Component{
             </select>
 
             <textarea className="descForm form-control" id="exampleFormControlTextarea1" rows="1"  placeholder="Lugar"></textarea>
-            <form name="formulario2">
-              <div className="col-xs-4">
 
-                <input type="date" name="fecha"></input>
-              </div>
-              <div className="col-xs-4">
-
-                <input type="time" name="hora"></input>
-                <h6> </h6>
-              </div>
-
-            </form>
-=======
->>>>>>> 68e96ba9512cb03bc2b092b46cc85bce5478b912
             <textarea className="descForm form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción"></textarea>
           </div>
           <div>

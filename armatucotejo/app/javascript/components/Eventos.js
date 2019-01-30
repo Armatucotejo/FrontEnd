@@ -6,8 +6,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Pickers from './Pickers';
 import logonav from '../../assets/images/logo-nav.png';
 import InfoPartida from './InfoPartida';
-import CrearEvento from './CrearEvento';
-import UnirseEvento from './UnirseEvento';
+
 class Eventos extends React.Component{
 
   render(){
@@ -40,7 +39,7 @@ class Eventos extends React.Component{
                 <Pickers/>
               </div>
           </div>
-          
+
 
         </div>
 

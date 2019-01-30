@@ -67,7 +67,7 @@ class InfoPartida extends React.Component{
         id="date"
         label="Fecha de Juego"
         type="date"
-        defaultValue="2017-05-24"
+        defaultValue="2019-01-24"
         style={styleDP}
         InputLabelProps={{
           shrink: true,
