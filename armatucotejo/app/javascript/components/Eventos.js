@@ -35,7 +35,8 @@ class Eventos extends React.Component{
           </div>
 
           <div className="fivebc EventoDivUp col-3 justify-content-center">
-              <div id="Pickers" className="">
+              <div id="Pickers" className="firstbc">
+                <InfoPartida/>
                 <Pickers/>
               </div>
           </div>
@@ -48,7 +49,7 @@ class Eventos extends React.Component{
         </div>
         <div className="InfoDiv fivebc col-9 justify-content-center">
           <div id="InfoPartida" className="">
-            INFOPARTIDA
+
           </div>
         </div>
         <div className="col-1">
