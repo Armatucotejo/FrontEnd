@@ -389,8 +389,8 @@ margin: auto;
 	background-color: inherit !important;
 }
 .mContent {
-  padding: 0px;
+  padding: 0px !important;
 	margin: inherit !important;
 	background: inherit !important;
-	size: 50%
-}
+	background-color: inherit !important;
+	}

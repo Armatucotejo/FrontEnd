@@ -37,13 +37,16 @@ class Unirse extends React.Component{
 
                 </div>
                     <div className="mLista">
-                            <a class="btn comfortaa buttonReg secondbc fivec">Unirse al Cotejo</a>
+                        <a class="btn comfortaa buttonReg secondbc fivec" color="black">Unirse a un Cotejo</a>
                     </div>
             </div>
           </div>
         </div>
-        <div className="secondc justify-content-cent EventoDiv">
+        <div id="" className=" row">
+          <div className="col justify-content-center secondc">
           <InfoPartida/>
+          </div>
+
           </div>
           </div>
 

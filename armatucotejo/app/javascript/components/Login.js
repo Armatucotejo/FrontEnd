@@ -44,7 +44,7 @@ class Login extends React.Component{
         <div className="col-10 centerdiv inputReg">
           <input type="password" className=" comfortaa form-control formReg" id="inputPassword" placeholder="Contraseña"
           />
-          <h6 className="comfortaa firstc olvpass"><a href="#">¿Olvidaste tu contraseña?</a></h6>
+          <Link to="/contra"><h6 className="comfortaa  olvpass"><a>¿Olvidaste tu contraseña?</a></h6></Link>
         </div>
         <div className="col-10 centerdiv inputReg">
           <Link to="/eventos"><button className="btn comfortaa buttonLogin fivebc firstc">Iniciar Sesion</button></Link>

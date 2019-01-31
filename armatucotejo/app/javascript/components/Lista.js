@@ -10,11 +10,11 @@ class Lista extends React.Component{
 
     return(
     <div className="container mLista">
-      <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+      <div className="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
 
   <div class="card">
 
-    <div class="card-header" role="tab" id="headingOne1">
+    <div className="card-header" role="tab" id="headingOne1">
       <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
         aria-controls="collapseOne1">
         <h5 className="mb-0">
@@ -27,7 +27,7 @@ class Lista extends React.Component{
 
     <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
       <div class="card-body">
-        More
+        Pumarejo
       </div>
     </div>
 
@@ -47,7 +47,7 @@ class Lista extends React.Component{
 
     <div id="collapseOne2" class="collapse show" role="tabpanel" aria-labelledby="headingOne2" data-parent="#accordionEx">
       <div class="card-body">
-        More
+        Cancha 15
       </div>
     </div>
 
@@ -67,7 +67,7 @@ class Lista extends React.Component{
 
     <div id="collapseOne3" class="collapse show" role="tabpanel" aria-labelledby="headingOne3" data-parent="#accordionEx">
       <div class="card-body">
-        More
+        Arenosa
       </div>
     </div>
 
@@ -96,10 +96,6 @@ class Lista extends React.Component{
 </div>
 
     </div>
-
-
-
-
     )
   }
 }
