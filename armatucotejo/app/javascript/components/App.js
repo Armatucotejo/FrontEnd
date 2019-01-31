@@ -5,8 +5,8 @@ import About from './About'
 import Register from './Register'
 import Deportes from './Deportes'
 import Eventos from './Eventos'
-import Unirse from './Unirse'
-import Contra from './Contra'
+import Perfil from './Perfil'
+
 
 class App extends React.Component{
   render(){
@@ -19,7 +19,6 @@ class App extends React.Component{
         <Route exact path="/register" component={Register} />
         <Route exact path="/deportes" component={Deportes} />
         <Route exact path="/eventos" component={Eventos} />
-        <Route exact path="/unirse" component={Unirse} />
       </Switch>
     </div>
     )
