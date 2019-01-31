@@ -429,7 +429,12 @@ margin-top: 0.3em !important;
 .ui.card,
 .ui.cards>.card {
 	display: inherit;
-  color: white;
+  color: black;
 	font-size: 18px !important;
 
+}
+.DivInfoU{
+	margin-bottom: 0.5em !important;
+	margin-top: 0.5em !important;
+	color: white;
 }

@@ -4,7 +4,7 @@ import {Button,Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstr
 import Checkbox from '@material-ui/core/Checkbox';
 import logonav from '../../assets/images/logo-nav.png';
 import Lista from './Lista';
-import InfoPartida from './InfoPartida';
+import InfoEvento from './InfoEvento';
 class Unirse extends React.Component{
 
     render(){
@@ -27,27 +27,19 @@ class Unirse extends React.Component{
             <div className="col">
             </div>
 
-            <div className="fivebc EventoDivUp col-6 justify-content-center">
+            <div className="secondbc EventoDivUp col-6 justify-content-center">
                 <div className="EventoDiv" id="map"></div>
+                <InfoEvento/>
             </div>
 
-            <div className="fivebc EventoDivUp col-3 justify-content-center">
+            <div className="secondbc EventoDivUp col-3 justify-content-center">
                 <div id="Pickers" className="mContent">
                   <Lista/>
-                  <div className="mLista">
-                      <a className="btn comfortaa buttonCrear secondbc fivec ">Unirse a un Cotejo</a>
-                  </div>
                 </div>
 
             </div>
           </div>
         </div>
-        <div id="" className=" row">
-          <div className="col justify-content-center thirdbc firstc">
-          <InfoPartida/>
-          </div>
-
-          </div>
           </div>
 
   		)
