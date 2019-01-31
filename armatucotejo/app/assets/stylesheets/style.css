@@ -357,6 +357,8 @@ margin: auto;
 	margin: auto;
 	margin-bottom: 1.5em;
 }
+
+}
 .mAuto{
 	margin: auto;
 }
@@ -379,4 +381,16 @@ margin: auto;
 	width: auto !important;
 	margin: auto !important;
 	margin-bottom: 0.2em !important;
+}
+.mLista{
+	justify-content: center;
+	min-width: 800;
+	margin: auto;
+	background-color: inherit !important;
+}
+.mContent {
+  padding: 0px;
+	margin: inherit !important;
+	background: inherit !important;
+	size: 50%
 }

@@ -6,7 +6,6 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Pickers from './Pickers';
 import logonav from '../../assets/images/logo-nav.png';
 import InfoPartida from './InfoPartida';
-
 class Eventos extends React.Component{
 
   render(){
