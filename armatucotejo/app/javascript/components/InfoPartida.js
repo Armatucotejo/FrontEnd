@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
 
@@ -7,12 +8,16 @@ class InfoPartida extends React.Component{
 
   constructor(props) {
   super(props);
-  this.state = {sport: ''};
+  this.state = {sport: '', lugar:''};
   this.handleChange = this.handleChange.bind(this);
+  this.handleChangeL = this.handleChangeL.bind(this);
 }
 
   handleChange(event) {
     this.setState({sport: event.target.value});
+  }
+  handleChangeL(event) {
+    this.setState({lugar: event.target.value});
   }
 
   render(){
@@ -35,16 +40,37 @@ class InfoPartida extends React.Component{
       },
     ];
 
+    const parques = [
+      {
+        value: 'Atahualpa',
+        label: 'Atahualpa',
+      },
+      {
+        value: 'Simon Bolivar',
+        label: 'Simon Bolivar',
+      },
+      {
+        value: 'Olaya',
+        label: 'Olaya',
+      },
+      {
+        value: 'Salitre',
+        label: 'Salitre',
+      },
+    ];
+
     const styleS = {
       display: "flex",
+      fontFamily: "comfortaa",
     }
     const styleDP = {
       display: "flex",
+      fontFamily: "comfortaa",
     }
 
 
     const selectSport =(
-      <div>
+      <div className="DivInfoS">
       <TextField
          select
          label="Deporte"
@@ -62,12 +88,12 @@ class InfoPartida extends React.Component{
     );
 
     const datePicker = (
-      <form noValidate>
+      <form noValidate className="DivInfo">
       <TextField
         id="date"
         label="Fecha de Juego"
         type="date"
-        defaultValue="2019-01-24"
+        defaultValue="2019-01-31"
         style={styleDP}
         InputLabelProps={{
           shrink: true,
@@ -77,7 +103,7 @@ class InfoPartida extends React.Component{
   );
 
     const timePicker=(
-      <form noValidate>
+      <form noValidate className="DivInfo">
       <TextField
         id="time"
         label="Hora de Juego"
@@ -94,11 +120,44 @@ class InfoPartida extends React.Component{
     </form>
     );
 
+    const comentarios = (
+      <div className="input-group">
+        <textarea className="descForm form-control comfortaa" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción"></textarea>
+      </div>
+    );
+
+    const lugar =(
+      <div className="DivInfoS">
+      <TextField
+         select
+         label="Lugar de Juego"
+         value={this.state.lugar}
+         style={styleS}
+         onChange={this.handleChangeL}
+       >
+         {parques.map(option => (
+           <MenuItem key={option.value} value={option.value}>
+             {option.label}
+           </MenuItem>
+         ))}
+       </TextField>
+       </div>
+    );
+
+    const button = (
+      <div>
+        <Link to="/"><button className="btn comfortaa buttonCrear fivebc firstc">Crear Cotejo</button></Link>
+      </div>
+    );
+
     return(
         <div className="container">
           {selectSport}
           {datePicker}
           {timePicker}
+          {lugar}
+          {comentarios}
+          {button}
         </div>
     )
   }

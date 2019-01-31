@@ -12,9 +12,9 @@ class Eventos extends React.Component{
 
     const logo = (
       <div id="LogoEvento" className="col-4">
-      <div className="col-8 mAuto">
-        <img id="imgEvento" src={logonav} alt="logohome"/>
-      </div>
+        <div className="col-8 mAuto marginAuto">
+          <img id="imgEvento" src={logonav} alt="logohome"/>
+        </div>
       </div>
     );
 
@@ -35,23 +35,11 @@ class Eventos extends React.Component{
           <div className="fivebc EventoDivUp col-3 justify-content-center">
               <div id="Pickers" className="firstbc">
                 <InfoPartida/>
-                <Pickers/>
               </div>
           </div>
 
-
-        </div>
-
-        <div className="row">
-        <div className="col-1">
-        </div>
-        <div className="InfoDiv fivebc col-9 justify-content-center">
-          <div id="InfoPartida" className="">
-
+          <div className="col">
           </div>
-        </div>
-        <div className="col-1">
-        </div>
         </div>
 
       </div>

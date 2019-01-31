@@ -9,12 +9,6 @@ class Pickers extends React.Component{
     return(
         <div className="container">
           <div className="row">
-            <select className="createForm custom-select" id="inlineFormCustomSelect" placeholder="Deportes">
-              <option value="1">Futbol</option>
-              <option value="2">Futsal</option>
-              <option value="3">Voleyball</option>
-              <option value="4">Basketball</option>
-            </select>
             <select className="createForm custom-select" id="inlineFormCustomSelect" placeholder="No.Jugadores">
               <option value="1">6</option>
               <option value="2">7</option>

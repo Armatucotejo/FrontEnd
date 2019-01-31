@@ -20,6 +20,8 @@ class Login extends React.Component{
     );
 
 
+
+
     const login = (
   <div className="secondbc col-8 divReg" style={styles}>
 
@@ -37,10 +39,12 @@ class Login extends React.Component{
       <form>
       <div className="form-group formGReg">
 
+
         <div className="col-10 centerdiv inputReg">
           <input type="user" className="comfortaa form-control formReg" id="inputUserName" placeholder="Nombre de Usuario"
           />
         </div>
+
         <div className="col-10 centerdiv inputReg">
           <input type="password" className=" comfortaa form-control formReg" id="inputPassword" placeholder="Contraseña"
           />
