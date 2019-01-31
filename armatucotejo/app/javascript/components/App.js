@@ -5,20 +5,23 @@ import About from './About'
 import Register from './Register'
 import Deportes from './Deportes'
 import Eventos from './Eventos'
-import CrearEvento from './CrearEvento'
-import UnirseEvento from './UnirseEvento'
+import Unirse from './Unirse'
+import Contra from './Contra'
+
 class App extends React.Component{
   render(){
     return(
       <div>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/contra" component={Contra} />
         <Route exact path="/about" component={About} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/deportes" component={Deportes} />
         <Route exact path="/eventos" component={Eventos} />
-        <Route exact path="/crearevento" component={CrearEvento} />
-        <Route exact path="/unirseevento" component={UnirseEvento} />
+
+        <Route exact path="/unirse" component={Unirse} />
+
       </Switch>
     </div>
     )

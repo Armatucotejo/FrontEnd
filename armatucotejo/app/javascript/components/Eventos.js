@@ -1,73 +1,48 @@
 import React, { Component } from 'react';
-import Navegbar from './Navegbar'
+import Navgbar from './Navgbar';
 import {Button,Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-
+import Login from './Login';
+import Checkbox from '@material-ui/core/Checkbox';
+import Pickers from './Pickers';
+import logonav from '../../assets/images/logo-nav.png';
+import InfoPartida from './InfoPartida';
 class Eventos extends React.Component{
+
   render(){
 
-    const titulo = (
-      <div>
-        <h1 id="titleselector" className="permanent center fivec"> ARMA TU COTEJO </h1>
-      </div>
-    );
-
-    const mapa = (
-        <div>
-          <div className="container">
-            <div id="interfaz" className="row justify-content-center">
-              <div className="col-6">
-              <div id="map"></div>
-              </div>
-              <div className="fivebc col-2">
-              Jugadores
-              <Button className="btn thirdbc fivec">Crear</Button>
-              <Button className="btn thirdbc fivec">Unirse</Button>
-              </div>
-              <div className="fourbc col-6">
-                <form>
-                  <div className="form-row">
-                    <div className="col">
-                    <select id="inputState" class="form-control">
-                      <option selected>Deportes</option>
-                      <option>Futbol</option>
-                      <option>Futsal</option>
-                      <option>Basketball</option>
-                      <option>Voleyball</option>
-                    </select>
-                    </div>
-                    <div className="col">
-                    <select id="inputState" class="form-control">
-                      <option selected>Lugar</option>
-                      <option>...</option>
-                    </select>
-                    </div>
-
-                    <div class="well">
-                      <div id="datetimepicker1" class="input-append date">
-                        <input data-format="dd/MM/yyyy hh:mm:ss" type="text"></input>
-                        <span class="add-on">
-                          <i data-time-icon="icon-time" data-date-icon="icon-calendar">
-                          </i>
-                        </span>
-                      </div>
-                    </div>
-
-                  </div>
-                </form>
-              </div>
-              <div className="fivebc col-2">
-              Aloja
-              </div>
-            </div>
-          </div>
+    const logo = (
+      <div id="LogoEvento" className="col-4">
+        <div className="col-8 mAuto marginAuto">
+          <img id="imgEvento" src={logonav} alt="logohome"/>
         </div>
+      </div>
     );
 
     return(
       <div>
-        <Navegbar/>
-        {titulo}
-        {mapa}
+      <Navgbar/>
+      {logo}
+      <div id="containerEven" className="container">
+
+        <div className="row">
+          <div className="col">
+          </div>
+
+          <div className="fivebc EventoDivUp col-6 justify-content-center">
+              <div className="EventoDiv" id="map"></div>
+          </div>
+
+          <div className="fivebc EventoDivUp col-3 justify-content-center">
+              <div id="Pickers" className="firstbc">
+                <InfoPartida/>
+              </div>
+          </div>
+
+          <div className="col">
+          </div>
+        </div>
+
+      </div>
       </div>
 		)
 	}

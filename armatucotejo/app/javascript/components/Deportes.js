@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navegbar from './Navegbar'
+
 import voley from '../../assets/images/voley.jpg';
 import futbol from '../../assets/images/futbol.jpg';
 import futsal from '../../assets/images/futsal.jpg';
@@ -60,7 +60,6 @@ class Deportes extends React.Component{
 
     return(
       <div>
-        <Navegbar />
         {selector}
       </div>
 		)
