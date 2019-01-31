@@ -34,16 +34,16 @@ class Unirse extends React.Component{
             <div className="fivebc EventoDivUp col-3 justify-content-center">
                 <div id="Pickers" className="mContent">
                   <Lista/>
-
+                  <div className="mLista">
+                      <a className="btn comfortaa buttonCrear secondbc fivec ">Unirse a un Cotejo</a>
+                  </div>
                 </div>
-                    <div className="mLista">
-                        <a class="btn comfortaa buttonReg secondbc fivec" color="black">Unirse a un Cotejo</a>
-                    </div>
+
             </div>
           </div>
         </div>
         <div id="" className=" row">
-          <div className="col justify-content-center secondc">
+          <div className="col justify-content-center thirdbc firstc">
           <InfoPartida/>
           </div>
 

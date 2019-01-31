@@ -422,3 +422,14 @@ margin: auto;
 padding-right: 0.6em !important;
 margin-top: 0.3em !important;
 }
+.ui.card {
+  display: inline-block;
+  }
+
+.ui.card,
+.ui.cards>.card {
+	display: inherit;
+  color: white;
+	font-size: 18px !important;
+
+}
