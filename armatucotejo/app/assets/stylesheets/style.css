@@ -193,6 +193,7 @@ body {
   padding-right: 0px !important;
 }
 
+
 #divlista{
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -438,3 +439,13 @@ margin-top: 0.3em !important;
 	margin-top: 0.5em !important;
 	color: white;
 }
+
+.formulario{
+  font-family: 'Comfortaa', bold;
+  color: #ffffff !important;
+
+}
+.formulario2{
+  font-family: 'Comfortaa', cursive;
+  color: #ffffff !important;
+
