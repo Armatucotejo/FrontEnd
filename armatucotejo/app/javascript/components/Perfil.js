@@ -8,26 +8,26 @@ import Navgbar from './Navgbar';
 
 class Perfil extends React.Component{
 
-	
+
 
 
 
 	render(){
 		const logo = (
-			
+
 			<div align =  "center">
 				<div id="logohome" className="col-3">
       				<div>
         				<img id="imgLogo" src={logonav} alt="logohome"/>
       				</div>
       			</div>
-			</div> 
+			</div>
 		);
 
 		const pagina = (
 
 			<div className="container">
-				<div className = "col-3">
+				<div className = "col-4">
 				<div className="secondbc col-14 divReg" >
 					<div id = "avatar" align = "center" className="row">
 						<div id="avatarpng" className="col-5">
@@ -45,11 +45,11 @@ class Perfil extends React.Component{
         				<div className="col-10 centerdiv inputReg">
           					<input type="user" className="comfortaa form-control formReg" id="Name" placeholder="Nombre"
           					        					/>
-        				</div>	
+        				</div>
         				<div className="col-10 centerdiv inputReg">
           					<input type="user" className="comfortaa form-control formReg" id="inputUserName" placeholder="Informacion"
           					/>
-        				</div>		
+        				</div>
 					</div>
 
 					<div id = "puntaje" >
@@ -57,9 +57,9 @@ class Perfil extends React.Component{
 							<h3 className="fivec pacifico"> Puntaje </h3>
 						</div>
 						<div id = "estrellas" >
-							
+
 							<img id="imgEstrella1" src={estrellapng} width = "30%" alt="logohome"/>
-							
+
 							<img id="imgEstrella2" src={estrellapng} alt="logohome" width = "30%"/>
 							<img id="imgEstrella3" src={estrellapng} alt="logohome" width = "30%"/>
 						</div>
@@ -75,7 +75,7 @@ class Perfil extends React.Component{
 				</div>
 
 				<div>
-					
+
 				</div>
 
 			</div>
@@ -91,7 +91,7 @@ class Perfil extends React.Component{
 			<Navgbar/>
 			{logo}
 			{pagina}
-			</div> 
+			</div>
 			)
 	}
 }
