@@ -5,7 +5,9 @@ import logopng from '../../assets/images/logo-png.png';
 import avatarpng from '../../assets/images/avatar.png';
 import estrellapng from '../../assets/images/estrella.png';
 import Navgbar from './Navgbar';
-import Avatar from '@material-ui/core/Avatar';
+
+import InfoUsuario from './InfoUsuario';
+import Estadisticas from './Estadisticas';
 
 class PerfilF extends React.Component{
 
@@ -17,10 +19,6 @@ class PerfilF extends React.Component{
 	render(){
 
 		const styles={
-			avatar:{
-				width: "100px",
-				height: "100px",
-			},
 			logoApp:{
 				width: "70%",
     		display: "block",
@@ -45,20 +43,20 @@ class PerfilF extends React.Component{
 		const pagina = (
 
 			<div className="container">
+				<div className="row">
+					<div className = "col">
+					</div>
 
-				<div className = "fourbc col">
+					<div className = "secondbc col-2">
+							<InfoUsuario/>
+					</div>
+
+					<div className = "thirdbc col-5">
+							<Estadisticas/>
+					</div>
+					<div className = "col">
+					</div>
 				</div>
-
-				<div className = "secondbc col-6">
-						<h1>{this.state.userName}</h1>
-				</div>
-
-				<div className = "secondbc col-4">
-				</div>
-
-				<div className = "fourbc col">
-				</div>
-
 			</div>
 
 
